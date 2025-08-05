@@ -2,72 +2,71 @@
 <html lang="en">
 <head>
   <meta name="google-site-verification" content="CiN-Pfsg6KpyiiaKLNNQddbm6wZojaXIa_zgmEVPDEk" />
-  <title>My Profile</title>
+  <title>Mark Lhorenz Gravador | Web Developer</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f9f9f9;
+      background-color: #f3f4f6;
       margin: 0;
       padding: 40px;
-      color: #333;
+      color: #111827;
     }
 
     .container {
       display: flex;
       flex-wrap: wrap;
-      max-width: 1200px;
+      max-width: 1100px;
       margin: 0 auto;
-      background: #fff;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border-radius: 10px;
+      background: #ffffff;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
       overflow: hidden;
     }
 
     .left {
       flex: 1 1 300px;
-      background-color: #f0f0f0;
+      background: linear-gradient(to bottom right, #0f172a, #1e293b);
       text-align: center;
+      color: #ffffff;
       padding: 40px 20px;
     }
 
     .left img {
-      width: 150px;
-      height: 150px;
+      width: 160px;
+      height: 160px;
       border-radius: 50%;
       object-fit: cover;
-      border: 4px solid #ddd;
+      border: 4px solid #38bdf8;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
       margin-bottom: 20px;
     }
 
     .info-title {
-      margin: 30px 0 10px;
-      font-size: 18px;
+      font-size: 20px;
       font-weight: bold;
-      border-bottom: 2px solid #00bcd4;
-      display: inline-block;
-      padding-bottom: 5px;
+      margin: 20px 0 10px;
+      color: #38bdf8;
     }
 
     .info {
-      margin-top: 10px;
-      font-size: 14px;
+      font-size: 15px;
       line-height: 1.8;
-    }
-
-    .info strong {
-      display: inline-block;
-      width: 80px;
-      color: #555;
     }
 
     .download-btn {
       display: inline-block;
-      background-color: #00bcd4;
+      background-color: #38bdf8;
       color: white;
       padding: 10px 20px;
       margin-top: 20px;
       text-decoration: none;
-      border-radius: 4px;
+      border-radius: 6px;
+      transition: 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #0ea5e9;
+      transform: scale(1.05);
     }
 
     .right {
@@ -76,32 +75,26 @@
     }
 
     .right h1 {
-      font-size: 28px;
-      color: #333;
-      margin-bottom: 10px;
+      font-size: 32px;
+      color: #0f172a;
+      margin-bottom: 5px;
     }
 
     .right h1 span {
       font-size: 16px;
       font-weight: normal;
-      color: #888;
-    }
-
-    .right p {
-      font-size: 16px;
-      margin: 20px 0;
-      line-height: 1.6;
+      color: #6b7280;
     }
 
     .social-links {
-      margin-top: 10px;
+      margin: 15px 0;
     }
 
     .social-links a {
       text-decoration: none;
-      margin-right: 20px;
-      font-size: 16px;
-      color: #0077b5;
+      margin-right: 16px;
+      font-size: 18px;
+      color: #0ea5e9;
     }
 
     .section {
@@ -110,11 +103,16 @@
 
     .section-title {
       font-weight: bold;
-      background-color: #e0f7fa;
+      background-color: #e0f2fe;
       padding: 10px;
-      color: #00796b;
-      border-left: 5px solid #00bcd4;
-      margin-bottom: 10px;
+      color: #0369a1;
+      border-left: 6px solid #38bdf8;
+      margin-bottom: 15px;
+    }
+
+    .section p {
+      margin: 8px 0;
+      font-size: 16px;
     }
 
     @media (max-width: 768px) {
@@ -137,15 +135,13 @@
 
     <div class="info-title">About Me</div>
     <div class="info">
-      <p>Hello, that’s me! I'm currently a 3rd-year Bachelor of Science in Information Technology (BSIT) student at Bulacan State University (BulSU), specializing in Web Development. I am planning to pursue a carreer in Web Development as a professional after graduating. </p>
-      <p><strong>CV:</strong> <a href="cv.pdf" class="download-btn">Download CV</a></p>
+      <p>Hi! I’m a 3rd-year BSIT student at Bulacan State University (BulSU), specializing in Web Development. I'm passionate about creating user-friendly websites and plan to pursue a professional career in this field after graduation.</p>
+      <a href="cv.pdf" class="download-btn">📥 Download CV</a>
     </div>
   </div>
 
   <div class="right">
     <h1>Mark Lhorenz Gravador <span>(Web Developer)</span></h1>
-    <p>
-      
 
     <div class="social-links">
       <a href="#">🔗 LinkedIn</a>
@@ -162,8 +158,16 @@
 
     <div class="section">
       <div class="section-title">WHAT I'M REALLY GOOD AT?</div>
-      <p>Web design, UI/UX, Figma, Photoshop, HTML/CSS, JavaScript.</p>
+      <p>💻 HTML/CSS, ⚙️ JavaScript, 🎨 UI/UX, 🛠 Figma, 📸 Photoshop, 🌐 Web Design</p>
     </div>
+
+    <div class="section">
+      <div class="section-title">PROJECTS</div>
+      <p>✔️ Responsive Portfolio Website (HTML, CSS, JS)</p>
+      <p>✔️ Login Form with Client-side Validation</p>
+      <p>✔️ Sample Product Landing Page</p>
+    </div>
+
   </div>
 </div>
 
